@@ -1,0 +1,28 @@
+body {
+    background: radial-gradient(rgb(41, 100, 226), rgb(188, 39, 136));
+    text-align: center;
+    color: white;
+}
+
+.celeb {
+    font-size: 100px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pic {
+    border-radius: 50%;
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid darkblue;
+}
+.msg {
+    font-size: 14px;
+}
+.header, .msg {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
